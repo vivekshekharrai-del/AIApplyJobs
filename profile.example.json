@@ -1,0 +1,58 @@
+{
+  "personal": {
+    "full_name": "Your Full Name",
+    "preferred_name": "FirstName",
+    "email": "your.email@example.com",
+    "phone": "+1-555-000-0000",
+    "address": "123 Main St",
+    "city": "Your City",
+    "province_state": "TX",
+    "country": "USA",
+    "postal_code": "00000",
+    "linkedin_url": "https://www.linkedin.com/in/your-profile/",
+    "github_url": "https://github.com/your-handle",
+    "portfolio_url": "",
+    "website_url": "",
+    "password": ""
+  },
+  "work_authorization": {
+    "legally_authorized_to_work": "Yes",
+    "require_sponsorship": "No",
+    "work_permit_type": ""
+  },
+  "compensation": {
+    "salary_expectation": "120000",
+    "salary_currency": "USD",
+    "salary_range_min": "100000",
+    "salary_range_max": "160000",
+    "currency_conversion_note": ""
+  },
+  "experience": {
+    "years_of_experience_total": "10",
+    "education_level": "Bachelor's",
+    "current_job_title": "Software Engineer",
+    "target_role": "Senior Software Engineer"
+  },
+  "availability": {
+    "earliest_start_date": "Immediately"
+  },
+  "skills_boundary": {
+    "programming_languages": ["Python", "JavaScript", "TypeScript"],
+    "frameworks": ["React", "FastAPI", "Node.js"],
+    "devops_infra": ["Docker", "AWS", "Git"],
+    "databases": ["PostgreSQL", "Redis"],
+    "tools": ["VS Code", "Jira", "Figma"]
+  },
+  "resume_facts": {
+    "preserved_companies": ["Company A", "Company B"],
+    "preserved_projects": ["Project X", "Project Y"],
+    "preserved_school": "University Name",
+    "real_metrics": ["reduced latency by 40%", "served 1M users"]
+  },
+  "eeo_voluntary": {
+    "gender": "Decline to self-identify",
+    "race_ethnicity": "Decline to self-identify",
+    "veteran_status": "I am not a protected veteran",
+    "disability_status": "I do not wish to answer"
+  }
+}

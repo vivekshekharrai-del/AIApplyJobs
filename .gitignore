@@ -1,0 +1,33 @@
+# Personal data — never commit these
+.env
+profile.json
+resume.txt
+resume.pdf
+
+# Database
+applypilot.db
+applypilot.db-shm
+applypilot.db-wal
+
+# Generated outputs
+jobs_view.html
+dashboard.html
+tailored_resumes/
+cover_letters/
+logs/
+
+# Browser / worker state
+chrome-workers/
+apply-workers/
+.mcp-apply-*.json
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# OS
+.DS_Store
+Thumbs.db
