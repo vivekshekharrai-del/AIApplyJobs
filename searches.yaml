@@ -18,19 +18,37 @@ locations:
     remote: false
 
 queries:
+  # Tier 1 — highest priority (developer / .net / lead roles)
+  - query: ".NET Developer"
+    tier: 1
+  - query: ".NET Engineer"
+    tier: 1
+  - query: "Lead Software Engineer"
+    tier: 1
+  - query: "Lead Developer"
+    tier: 1
+  - query: "Senior Software Engineer .NET"
+    tier: 1
   - query: "Software Engineer"
     tier: 1
-  - query: ".net"
+  - query: "Full Stack Developer"
     tier: 1
-  - query: "Azure"
+  - query: "Full Stack .NET"
+    tier: 1
+  # Tier 2 — broader searches
+  - query: "Azure Developer"
+    tier: 2
+  - query: "Azure Architect"
     tier: 2
   - query: "solution architect"
     tier: 2
-  - query: "princip"
+  - query: "principal engineer"
     tier: 2
-  - query: "full stack"
+  - query: "principal developer"
     tier: 2
-  - query: "Lead"
+  - query: "technical lead"
+    tier: 2
+  - query: "engineering manager"
     tier: 2
     
 
@@ -113,11 +131,10 @@ location_reject_non_remote:
 
 # Job boards for JobSpy (supported: indeed, linkedin, glassdoor, zip_recruiter, google)
 # Note: Dice.com is scraped separately via the smartextract module (sites.yaml) -- no need to add it here
+# Prioritizing Indeed (best .NET/dev coverage) + LinkedIn; Dice handled separately above
 sites:
   - indeed
   - linkedin
-  - glassdoor
-  - zip_recruiter
 
 # Negative keywords -- skip jobs with these in the title (case-insensitive)
 exclude_titles:
