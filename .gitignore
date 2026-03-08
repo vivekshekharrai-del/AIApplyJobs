@@ -15,6 +15,7 @@ dashboard.html
 tailored_resumes/
 cover_letters/
 logs/
+*.log
 
 # Browser / worker state
 chrome-workers/
